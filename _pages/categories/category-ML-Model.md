@@ -1,7 +1,7 @@
 ---
 title: "ML-Model"
 layout: archive
-permalink: categories/ML-Model.md
+permalink: categories/ML-Model
 author_profile: true
 sidebar_main: true
 ---
