@@ -4,7 +4,7 @@ title:  "Python-test"
 categories:
   - BigData
 tags:
-  - [Python, Algorithms]
+  - [Keras, Database, Kafka]
 
 toc: true
 toc_sticky: true
