@@ -12,11 +12,11 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 ocale                    : "en-US"
-title                    : "Jaehoon9201 blog"
+title                    : "Jaehoon9201's blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jaehoon9201"
@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Jaehoon Shim"
   avatar           : "/assets/jhs.jpg"
-  bio              : "Interested in Machine Learning"
+  bio              : "For a better tomorrow"
   location         : "Seoul, South Korea"
   email            :
   links:
