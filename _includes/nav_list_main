@@ -25,23 +25,23 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "STL" %}
-                        <li><a href="/categories/stl" class="">Python STL & 표준 ({{category[1].size}})</a></li>
+                    {% if category[0] == "C" %}
+                        <li><a href="/categories/C" class="">C ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
         <span class="nav__sub-title">Coding Test</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Algorithm" %}
-                        <li><a href="/categories/algorithm" class="">알고리즘 구현 (with Python) ({{category[1].size}})</a></li>
+                    {% if category[0] == "Java" %}
+                        <li><a href="/categories/Java" class="">Java ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Programmers" %}
-                        <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
+                    {% if category[0] == "Algorithms" %}
+                        <li><a href="/categories/Algorithms" class="">Algorithms ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
