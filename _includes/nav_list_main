@@ -12,7 +12,7 @@
       </li>
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) Python#-->
-        <span class="nav__sub-title">Programming#</span>
+        <span class="nav__sub-title">Programming</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
                 <!--Python 카테고리 글들을 모아둔 페이지인 /categories/Python 주소의 글로 링크 연결-->
@@ -51,7 +51,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">BigData</span>
+        <span class="nav__sub-title">Big-Data</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Database" %}
@@ -66,7 +66,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">MachineLearning</span>
+        <span class="nav__sub-title">Machine-Learning</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Keras" %}
