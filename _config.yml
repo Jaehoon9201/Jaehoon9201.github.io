@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "Jaehoon Shim"
-  avatar           : "/_images/jhs.jpg"
+  avatar           : "/assets/jhs.jpg"
   bio              : "Intereted in Machine Learning"
   location         : "Seoul"
   email            :
