@@ -20,7 +20,7 @@ title                    : "Jaehoon9201 blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jaehoon9201"
-description              : "For a better future"
+description              : "For a better tomorrow"
 url                      : "https://Jaehoon9201.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Jaehoon Shim"
   avatar           : "/assets/jhs.jpg"
-  bio              : "Intereted in Machine Learning"
+  bio              : "Interested in Machine Learning"
   location         : "Seoul"
   email            :
   links:
