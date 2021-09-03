@@ -2,7 +2,7 @@
 title:  "Python-test" 
 
 categories:
-  - Python
+  - BigData
 tags:
   - [Python, Algorithms]
 
