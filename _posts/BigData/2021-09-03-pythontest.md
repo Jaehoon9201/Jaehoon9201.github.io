@@ -2,7 +2,7 @@
 title:  "Python-test" 
 
 categories:
-  - BigData
+  - BigData, Keras, Database, Kafka
 tags:
   - [Keras, Database, Kafka]
 
