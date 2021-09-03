@@ -12,7 +12,7 @@
       </li>
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) Python#-->
-        <span class="nav__sub-title">Python#</span>
+        <span class="nav__sub-title">Programming#</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
                 <!--Python 카테고리 글들을 모아둔 페이지인 /categories/Python 주소의 글로 링크 연결-->
@@ -30,7 +30,13 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Coding Test</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Cpp" %}
+                        <li><a href="/categories/Cpp" class="">C++ ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Java" %}
@@ -38,6 +44,51 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Matlab" %}
+                        <li><a href="/categories/Matlab" class="">Matlab/Simulink ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">BigData</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Database" %}
+                        <li><a href="/categories/Database" class="">Database ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Kafka" %}
+                        <li><a href="/categories/Kafka" class="">Kafka ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">MachineLearning</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Keras" %}
+                        <li><a href="/categories/Keras" class="">Keras ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Pytorch" %}
+                        <li><a href="/categories/Pytorch" class="">Pytorch ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ML-Model" %}
+                        <li><a href="/categories/ML-Model" class="">ML-Model ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">Algorithms</span>      
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithms" %}
