@@ -15,6 +15,15 @@
         <span class="nav__sub-title">Programming</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
+                <!--Python 카테고리 글들을 모아둔 페이지인 /categories/Programming 주소의 글로 링크 연결-->
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                {% for category in site.categories %}
+                    {% if category[0] == "Programming" %}
+                        <li><a href="/categories/Python" class="">Programming ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
                 <!--Python 카테고리 글들을 모아둔 페이지인 /categories/Python 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
@@ -52,6 +61,13 @@
                 {% endfor %}
             </ul>
         <span class="nav__sub-title">Big-Data</span>
+             <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "BigData" %}
+                        <li><a href="/categories/BigData" class="">BigData ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Database" %}
@@ -67,6 +83,13 @@
                 {% endfor %}
             </ul>
         <span class="nav__sub-title">Machine-Learning</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "MachineLearning" %}
+                        <li><a href="/categories/MachineLearning" class="">MachineLearning ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Keras" %}
@@ -88,7 +111,14 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Algorithms</span>      
+        <span class="nav__sub-title">Algorithms</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Algorithms" %}
+                        <li><a href="/categories/Algorithms" class="">Algorithms ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithms-Coding" %}
