@@ -4,7 +4,7 @@ title:  "Algorithms test"
 categories:
   - Algorithms
 tags:
-  - [Algorithms, Java]
+  - [Algorithms-Coding, Java]
 
 toc: true
 toc_sticky: true
