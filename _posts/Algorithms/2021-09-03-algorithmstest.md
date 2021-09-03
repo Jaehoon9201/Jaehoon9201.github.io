@@ -2,7 +2,7 @@
 title:  "Algorithms test" 
 
 categories:
-  - Algorithms
+  - Algorithms-Coding
 tags:
   - [Algorithms-Coding, Java]
 
