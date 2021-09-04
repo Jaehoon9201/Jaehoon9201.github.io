@@ -50,7 +50,15 @@ MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
 ```
 
 3. Insert codes like below, on the <mark style='background-color: #f1f8ff'>layout/default.html</mark> 
-
+```html
+<head>
+    {% if page.use_math %}
+      {% include mathjax_support.html %}
+    {% endif %}
+    {% include head.html %}
+    {% include head/custom.html %}
+</head>
+```html
 
 4. When postings, insert <mark style='background-color: #f1f8ff'>use_math: true</mark> 
 
