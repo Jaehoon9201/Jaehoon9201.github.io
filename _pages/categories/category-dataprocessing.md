@@ -1,5 +1,5 @@
 ---
-title: "DataProcessing"
+title: "Data-Processing"
 layout: archive
 permalink: categories/DataProcessing
 author_profile: true
