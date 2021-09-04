@@ -83,14 +83,14 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "ML-Model" %}
-                        <li><a href="/categories/ML-Model" class="">ML-Model ({{category[1].size}})</a></li>
+                    {% if category[0] == "ML-model" %}
+                        <li><a href="/categories/ML-model" class="">ML-model ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "DataProcessing" %}
+                    {% if category[0] == "Data-processing" %}
                         <li><a href="/categories/DataProcessing" class="">DataProcessing ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
@@ -98,7 +98,7 @@
         <span class="nav__sub-title">Algorithms</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Algorithms-Coding" %}
+                    {% if category[0] == "Algorithms-coding" %}
                         <li><a href="/categories/Algorithms" class="">Algorithms ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
