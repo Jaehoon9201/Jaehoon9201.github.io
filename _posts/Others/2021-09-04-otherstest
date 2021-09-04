@@ -1,1 +1,19 @@
-w
+---
+title: "Jekyll Github 블로그에 MathJax로 수학식 표시하기"
+category:
+  - Github
+tags:
+  - HTML
+use_math: true
+---
+double dollars test
+
+$$n+1 \choose k+2$$
+
+This formula $$f(x) = x^2$$ is an example.
+
+single dollar test
+
+$n+1 \choose k+2$
+
+This formula $f(x) = x^2$ is an example.
