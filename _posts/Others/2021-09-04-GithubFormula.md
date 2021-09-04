@@ -63,7 +63,7 @@ MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
 
 4. When postings, insert <mark style='background-color: #f1f8ff'>use_math: true</mark> 
 
-```markdown
+```html
 ---
 title:  'log 와 ln'
 categories:
