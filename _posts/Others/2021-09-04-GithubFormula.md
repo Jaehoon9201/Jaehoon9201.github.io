@@ -58,10 +58,10 @@ MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
     {% include head.html %}
     {% include head/custom.html %}
 </head>
-```html
+```
+
 
 4. When postings, insert <mark style='background-color: #f1f8ff'>use_math: true</mark> 
-
 ```html
 ---
 title:  'log 와 ln'
