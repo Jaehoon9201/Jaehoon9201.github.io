@@ -88,7 +88,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-         <span class="nav__sub-title">Data-Processing</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "DataProcessing" %}
@@ -104,6 +103,15 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">Others</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Github" %}
+                        <li><a href="/categories/Github" class="">Github ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+              
       </li>
   </ul>
 </nav>
