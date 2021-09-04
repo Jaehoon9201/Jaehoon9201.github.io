@@ -1,5 +1,5 @@
 ---
-title: "ML-Model"
+title: "ML-model"
 layout: archive
 permalink: categories/ML-Model
 author_profile: true
