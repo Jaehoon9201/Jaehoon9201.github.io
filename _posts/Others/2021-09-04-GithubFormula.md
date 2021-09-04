@@ -21,7 +21,7 @@ incremental: false
 
 ```
 
-2. Include <mark style='background-color: #f1f8ff'>`mathjax_support.html` </mark>  in the <mark style='background-color: #f1f8ff'>`_inlcudes` </mark> folder.
+2. Include <mark style='background-color: #f1f8ff'>mathjax_support.html </mark>  in the <mark style='background-color: #f1f8ff'>_inlcudes</mark> folder.
 
 ```html
 <script type="text/x-mathjax-config">
@@ -85,7 +85,7 @@ But strangely, i couldn't 'display' way using <mark style='background-color: #f1
 
 So, I did below setting additionally.
 
-1. Include <mark style='background-color: #f1f8ff'>`Mathjax.html` </mark>  in the <mark style='background-color: #f1f8ff'>`_inlcudes` </mark> folder.
+1. Include <mark style='background-color: #f1f8ff'>Mathjax.html</mark>  in the <mark style='background-color: #f1f8ff'>_inlcudes</mark> folder.
 
 ```html
 <script type="text/javascript">
@@ -113,11 +113,11 @@ So, I did below setting additionally.
 </script>
 ```
 
-2. Include below code in the <mark style='background-color: #f1f8ff'>`_layouts/default.html` </mark> folder.
+2. Include below code in the <mark style='background-color: #f1f8ff'>_layouts/default.html</mark> folder.
 
 ```html
     {% include Mathjax.html %}
 ```
 
-Then, it makes also github work  <mark style='background-color: #f1f8ff'>&& --  && </mark> .
+Then, it makes also github work  <mark style='background-color: #f1f8ff'>&& --  &&</mark> .
 
