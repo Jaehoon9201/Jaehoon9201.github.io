@@ -98,8 +98,8 @@
         <span class="nav__sub-title">Algorithms</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Algorithms-coding" %}
-                        <li><a href="/categories/Algorithms-coding" class="">Algorithms-coding ({{category[1].size}})</a></li>
+                    {% if category[0] == "Algorithm-coding" %}
+                        <li><a href="/categories/Algorithm-coding" class="">Algorithm-coding ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
