@@ -2,9 +2,9 @@
 title:  "Algorithms test" 
 
 categories:
-  - Algorithms-coding
+  - Algorithm-coding
 tags:
-  - [Algorithms-coding, Java]
+  - [Algorithm-coding, Java]
 
 toc: true
 toc_sticky: true
