@@ -99,7 +99,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithms-coding" %}
-                        <li><a href="/categories/Algorithms" class="">Algorithms ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Algorithms-coding" class="">Algorithms-coding ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
