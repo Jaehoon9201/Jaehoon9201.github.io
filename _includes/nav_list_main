@@ -91,7 +91,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Data-processing" %}
-                        <li><a href="/categories/DataProcessing" class="">Data-processing ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Data-processing" class="">Data-processing ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
