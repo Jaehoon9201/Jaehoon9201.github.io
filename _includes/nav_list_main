@@ -76,6 +76,13 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "Deep-learning" %}
+                        <li><a href="/categories/Deep-learning" class="">Deep-learning ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "Pytorch" %}
                         <li><a href="/categories/Pytorch" class="">Pytorch ({{category[1].size}})</a></li>
                     {% endif %}
