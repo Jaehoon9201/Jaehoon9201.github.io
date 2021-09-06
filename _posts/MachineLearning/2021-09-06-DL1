@@ -1,9 +1,9 @@
 ---
-title: "Discrete Fourier Transform(DFT)"
+title: "Points to consider when developing a machine learning model"
 category:
-  - Data-processing
+  - Deep-learning
 tags:
-  - [Data-processing]
+  - [Deep-learning]
 use_math: true
 
 ---
