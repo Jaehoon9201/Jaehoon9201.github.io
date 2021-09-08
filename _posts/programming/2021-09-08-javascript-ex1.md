@@ -1,9 +1,9 @@
 ---
 title: "Functional programming- Java-script example 1"
 category:
-  - Java
+  - Java-script
 tags:
-  - Java
+  - Java-script
 use_math: true
 ---
 
