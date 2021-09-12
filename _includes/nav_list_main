@@ -59,7 +59,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Bigdata</span>
+        <span class="nav__sub-ticategorytle">Bigdata</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Database" %}
@@ -128,8 +128,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Pytorch" %}
-                        <li><a href="/categories/Pytorch" class="">Pytorch ({{category[1].size}})</a></li>
+                    {% if category[0] == "Setting" %}
+                        <li><a href="/categories/Setting" class="">Setting ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>  
