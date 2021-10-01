@@ -29,3 +29,15 @@ print('h5py ' + h5py.__version__)
 print('tensorflow ' + tf.__version__)
 print('torch ' + torch.__version__)
 ```
+
+The results are represented below.(in my case)
+```python
+scipy 1.7.1
+numpy 1.19.5    
+matplotlib 3.4.3
+pandas 1.3.2    
+sklearn 0.24.2  
+h5py 3.1.0      
+tensorflow 2.6.0
+torch 1.9.0+cpu 
+```
