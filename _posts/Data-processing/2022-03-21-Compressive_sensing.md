@@ -40,7 +40,7 @@ use_math: true
    * ![image](https://user-images.githubusercontent.com/71545160/159208351-14bbfaa8-0ee0-4764-adf2-911d07bb5103.png)
 
 3. $ b= \Phi f  = \Phi \Psi c = Ac$
-   $ subject to  ||c||~1~ $ 
+   $ subject\;to  ||c||_{1} $ 
 
    * If we obtain $c$ , **we can reconstruct the $f$.**
 
