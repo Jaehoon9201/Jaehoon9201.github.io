@@ -7,7 +7,7 @@ tags:
 use_math: true
 ---
 
-# What is a compressive sensing?
+## What is a compressive sensing?
 
 * It could be thought compressed or random measurements.
 * And then inferring what the sparse representation is in the transformed basis.
@@ -16,7 +16,7 @@ use_math: true
 
 
 
-# How to do? (For reconstructing a $f$)
+## How to do? (For reconstructing a $f$)
 
 * [References](https://www.youtube.com/watch?v=rt5mMEmZHfs)
 
@@ -25,8 +25,8 @@ use_math: true
    * $\Psi$ : basis
 
    * $c$ : "loadings" or "coefficeints of basis"
-   * ![image-20220321115321090](C:\Users\HALAB_G\AppData\Roaming\Typora\typora-user-images\image-20220321115321090.png)
-   * ![image-20220321115334101](C:\Users\HALAB_G\AppData\Roaming\Typora\typora-user-images\image-20220321115334101.png)
+   * ![image](https://user-images.githubusercontent.com/71545160/159208323-71e171c2-9158-441d-a748-e1c3474d2951.png)
+   * ![image](https://user-images.githubusercontent.com/71545160/159208336-87a7c361-debf-4fc3-9665-d95a12bcb494.png)
 
 2. $ b= \Phi f $
 
@@ -36,15 +36,13 @@ use_math: true
      * = it also could be thought as a portion of $f$.
    * $\Phi$ :  measuring matrix
    * $f$ : $ f = \Psi c $
-   * ![image-20220321115455657](C:\Users\HALAB_G\AppData\Roaming\Typora\typora-user-images\image-20220321115455657.png)
+   * ![image](https://user-images.githubusercontent.com/71545160/159208351-14bbfaa8-0ee0-4764-adf2-911d07bb5103.png)
 
-3. $ b= \Phi f  = \Phi \Psi c = Ac  subject to ||c||_{1}$ 
+3. $ b= \Phi f  = \Phi \Psi c = Ac $  subject to  $||c||_{1} $ 
 
    * If we obtain $c$ , **we can reconstruct the $f$.**
 
-# Example code
-
-
+## Example code
 
 ```matlab
 
@@ -97,7 +95,6 @@ figure(4)
 plot(f_dct, 'b'), hold on, grid on;
 plot(x, 'r');
 ```
+![image](https://user-images.githubusercontent.com/71545160/159208370-6307e358-c8d2-49ca-b238-ad4d2dc2cf94.png)
+![image](https://user-images.githubusercontent.com/71545160/159208376-9c871f9f-2634-44e6-8cfb-ece101185ce0.png)
 
-![image-20220321140704176](C:\Users\HALAB_G\AppData\Roaming\Typora\typora-user-images\image-20220321140704176.png)
-
-![image-20220321140756300](C:\Users\HALAB_G\AppData\Roaming\Typora\typora-user-images\image-20220321140756300.png)
