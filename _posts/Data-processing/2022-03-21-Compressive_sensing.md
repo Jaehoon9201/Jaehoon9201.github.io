@@ -27,6 +27,7 @@ use_math: true
    * $c$ : "loadings" or "coefficeints of basis"
    * ![image](https://user-images.githubusercontent.com/71545160/159208323-71e171c2-9158-441d-a748-e1c3474d2951.png)
    * ![image](https://user-images.githubusercontent.com/71545160/159208336-87a7c361-debf-4fc3-9665-d95a12bcb494.png)
+   * (above images's source) : https://www.youtube.com/watch?v=rt5mMEmZHfs
 
 2. $ b= \Phi f $
 
