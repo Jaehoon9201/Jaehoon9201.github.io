@@ -44,7 +44,7 @@ use_math: true
 
    * If we obtain $c$ , **we can reconstruct the $f$.**
 
-**Conclusions** : In real world, we could obtain $b$ , subsample vector. Using it, we could solve convex optimization problem for obtaining $c$ vector.  With this $c$,  and step 1, we can infer $f$.
+**:star:Conclusions** : In real world, we could obtain $b$ , subsample vector. Using it, we could solve convex optimization problem for obtaining $c$ vector.  With this $c$,  and step 1, we can infer $f$.
 
 ## Example code
 
