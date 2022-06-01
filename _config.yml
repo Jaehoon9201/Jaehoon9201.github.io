@@ -112,7 +112,7 @@ author:
       url: "mailto:jaehoon9201@snu.ac.kr"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      # url: "https://scholar.google.com/citations?user=FwoMgvkAAAAJ&hl=ko"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -124,7 +124,7 @@ author:
       url: "https://github.com/jaehoon9201"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/jaehoon9201"
+      url: "https://www.instagram.com/jaehoon_shim_/"
 
 # Site Footer
 footer:
@@ -146,7 +146,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/jaehoon9201"
+      url: "https://www.instagram.com/jaehoon_shim_/"
 
 
 # Reading Files
