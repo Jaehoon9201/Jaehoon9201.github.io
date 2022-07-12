@@ -102,3 +102,6 @@ plot(x, 'r');
 ![image](https://user-images.githubusercontent.com/71545160/159208370-6307e358-c8d2-49ca-b238-ad4d2dc2cf94.png)
 ![image](https://user-images.githubusercontent.com/71545160/159208376-9c871f9f-2634-44e6-8cfb-ece101185ce0.png)
 
+
+## Summary
+![image](https://user-images.githubusercontent.com/71545160/178455444-5d532c44-b5e6-4908-8f8e-02bfdaad7cf9.png)
